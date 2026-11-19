@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ===== PRIMARY SEO ===== -->
+<title>NHL Streams — Watch Live NHL Hockey Online | NHLBite, NHL Webcast & OnhockeyTV</title>
+<meta name="description" content="Watch live NHL streams in HD. NHLBite, NHL Webcast and OnhockeyTV — the best place for free NHL hockey streams, updated 24/7.">
+<meta name="keywords" content="nhl streams, nhl stream, nhlbite, nhl webcast, onhockeytv, nhl live stream, watch nhl online, free nhl streams, nhl hockey stream, nhl live, stanley cup live stream, nhl playoffs stream, reddit nhl streams, nhl streaming, hockey streams">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="googlebot" content="index, follow">
+<link rel="canonical" href="https://nhlstreams.watch/">
+
+<!-- ===== OPEN GRAPH (Facebook / WhatsApp / Telegram share) ===== -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="NHL Streams">
+<meta property="og:url" content="https://nhlstreams.watch/">
+<meta property="og:title" content="NHL Streams — Watch Live NHL Hockey Online | NHLBite, NHL Webcast & OnhockeyTV">
+<meta property="og:description" content="Watch live NHL streams in HD. NHLBite, NHL Webcast and OnhockeyTV — the best place for free NHL hockey streams, updated 24/7.">
+<meta property="og:image" content="https://nhlstreams.watch/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+
+<!-- ===== TWITTER CARD ===== -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="NHL Streams — Watch Live NHL Hockey Online | NHLBite, NHL Webcast & OnhockeyTV">
+<meta name="twitter:description" content="Watch live NHL streams in HD. NHLBite, NHL Webcast and OnhockeyTV — the best place for free NHL hockey streams, updated 24/7.">
+<meta name="twitter:image" content="https://nhlstreams.watch/og-image.jpg">
+
+<!-- ===== MISC ===== -->
+<meta name="theme-color" content="#070b14">
+<meta name="revisit-after" content="1 days">
+<meta name="language" content="English">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏒</text></svg>">
+
+<!-- ===== STRUCTURED DATA (Google rich results) ===== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "NHL Streams",
+  "url": "https://nhlstreams.watch/",
+  "description": "Watch live NHL hockey streams free in HD. NHLBite, NHL Webcast and OnhockeyTV style streams — every NHL game live online.",
+  "inLanguage": "en",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://nhlstreams.watch/?search={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are NHL Streams?",
+      "acceptedAnswer": { "@type": "Answer", "text": "NHL Streams is a free website where you can watch live NHL hockey matches online in HD. We collect the best working streams and list them in one simple place." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is NHLBite free to use?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. Just like NHLBite, all streams on our site are completely free — no registration, no subscription, and no hidden fees." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I watch NHL Webcast on my phone?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Absolutely! NHL Webcast streams are fully mobile-friendly and work on Android, iPhone, tablets, Smart TVs, and Firestick without any app download." }
+    },
+    {
+      "@type": "Question",
+      "name": "Do NHL Streams work during playoffs?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes! NHL Streams covers the full season — regular season, playoffs, and the Stanley Cup Finals — with HD links for every game." }
+    }
+  ]
+}
+</script>
+
+<style>
+  :root {
+    --bg: #070b14; --card: #0e1626; --border: #1a2740;
+    --ice: #7dd3fc; --blue: #38bdf8; --text: #eef6ff;
+    --muted: #94a8c3; --live: #ff4655;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', system-ui, sans-serif; }
+  body { background: var(--bg); color: var(--text); min-height: 100vh; }
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+
+  nav { position: sticky; top: 0; z-index: 50; background: rgba(7,11,20,.9); backdrop-filter: blur(10px); border-bottom: 1px solid var(--border); }
+  .nav-in { display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; }
+  .brand { font-size: 22px; font-weight: 800; }
+  .brand span { color: var(--ice); }
+  .live-pill { display: flex; align-items: center; gap: 8px; background: rgba(255,70,85,.1); border: 1px solid rgba(255,70,85,.3); color: #ff8a94; padding: 6px 14px; border-radius: 999px; font-size: 13px; font-weight: 600; }
+  .live-pill .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--live); animation: pulse 1.4s infinite; }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.35} }
+
+  .intro { text-align: center; padding: 56px 20px 36px; background: radial-gradient(600px 300px at 50% -10%, rgba(56,189,248,.12), transparent 70%); }
+  .intro h1 { font-size: clamp(28px, 5vw, 44px); font-weight: 900; line-height: 1.2; max-width: 820px; margin: 0 auto; }
+  .intro h1 em { font-style: normal; background: linear-gradient(90deg, var(--ice), var(--blue)); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+  .intro p { color: var(--muted); font-size: 16px; line-height: 1.7; max-width: 760px; margin: 18px auto 0; }
+
+  .top-ad { display: flex; justify-content: center; align-items: flex-start; margin: 16px 0 14px; overflow: hidden; }
+  @media (max-width: 760px) { .top-ad { overflow-x: auto; } }
+
+  .toolbar { display: flex; gap: 10px; padding: 6px 0 14px; flex-wrap: wrap; }
+  .toolbar input { flex: 1; min-width: 220px; padding: 12px 16px; border-radius: 12px; border: 1px solid var(--border); background: var(--card); color: var(--text); outline: none; font-size: 14px; }
+  .toolbar input:focus { border-color: var(--blue); }
+  .toolbar button { padding: 12px 22px; border-radius: 12px; border: none; cursor: pointer; background: var(--blue); color: #04121e; font-weight: 700; font-size: 14px; }
+  .toolbar button:hover { background: var(--ice); }
+
+  .discord-banner { display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: wrap; background: linear-gradient(135deg, #5865F2, #4752c4); border: 1px solid rgba(88,101,242,.45); border-radius: 12px; padding: 13px 18px; margin: 0 0 22px; color: #fff; text-decoration: none; font-size: 14px; transition: transform .2s, box-shadow .2s; }
+  .discord-banner:hover { transform: translateY(-2px); box-shadow: 0 10px 28px rgba(88,101,242,.45); }
+  .discord-banner .d-ico { font-size: 20px; }
+  .discord-banner b { font-weight: 800; }
+  .discord-banner .join { background: #fff; color: #5865F2; font-weight: 800; font-size: 13px; padding: 6px 14px; border-radius: 999px; white-space: nowrap; }
+
+  .side-ad { position: fixed; top: 50%; transform: translateY(-50%); width: 160px; height: 600px; z-index: 40; display: none; }
+  .side-ad.left { left: 8px; }
+  .side-ad.right { right: 8px; }
+  @media (min-width: 1280px) and (max-width: 1439px) { .side-ad { display: block; } .wrap { max-width: 920px; } }
+  @media (min-width: 1440px) { .side-ad { display: block; } }
+
+  h2.sec { font-size: 22px; font-weight: 800; padding: 26px 0 16px; display: flex; align-items: center; gap: 12px; }
+  h2.sec::after { content: ""; flex: 1; height: 1px; background: var(--border); }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; padding-bottom: 20px; }
+  .card { display: block; text-decoration: none; color: inherit; cursor: pointer; background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 20px; transition: transform .2s, border-color .2s; }
+  .card:hover { transform: translateY(-4px); border-color: var(--blue); }
+  .card-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+  .chip { font-size: 11px; font-weight: 700; letter-spacing: 1.5px; color: var(--ice); background: rgba(56,189,248,.1); border: 1px solid rgba(56,189,248,.25); padding: 4px 12px; border-radius: 999px; text-transform: uppercase; }
+  .badge { font-size: 11px; font-weight: 800; color: #fff; background: linear-gradient(135deg, #ff4655, #c81e2b); padding: 4px 12px; border-radius: 999px; }
+  .teams { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+  .team { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 8px; text-align: center; }
+  .team .ring { width: 60px; height: 60px; border-radius: 50%; background: rgba(125,211,252,.08); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; }
+  .team .ring img { width: 42px; height: 42px; object-fit: contain; }
+  .team .ring span { font-size: 22px; font-weight: 900; color: var(--ice); }
+  .team p { font-size: 14px; font-weight: 600; }
+  .vs { font-size: 12px; font-weight: 800; color: var(--muted); }
+  .card-foot { display: flex; justify-content: space-between; align-items: center; margin-top: 16px; gap: 8px; }
+  .time { color: var(--muted); font-size: 13px; }
+  .watch { padding: 9px 16px; border-radius: 10px; background: var(--blue); color: #04121e; font-weight: 800; font-size: 13px; }
+  .card:hover .watch { background: var(--ice); }
+  .no-stream { color: var(--muted); font-size: 13px; font-style: italic; }
+
+  .empty { text-align: center; padding: 50px 20px; color: var(--muted); }
+  .empty .puck { font-size: 56px; display: block; margin-bottom: 12px; }
+
+  .content { padding: 10px 0 20px; }
+  .content h2 { font-size: 19px; font-weight: 800; color: var(--ice); margin: 30px 0 10px; line-height: 1.4; }
+  .content p { color: var(--muted); font-size: 15px; line-height: 1.75; }
+
+  .faq { padding: 10px 0 40px; }
+  details { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px 20px; margin-bottom: 10px; }
+  details summary { cursor: pointer; font-weight: 700; font-size: 15px; color: var(--text); list-style: none; display: flex; justify-content: space-between; align-items: center; }
+  details summary::-webkit-details-marker { display: none; }
+  details summary::after { content: "+"; color: var(--ice); font-size: 20px; font-weight: 700; }
+  details[open] summary::after { content: "−"; }
+  details p { color: var(--muted); font-size: 14px; line-height: 1.7; margin-top: 10px; }
+
+  footer { border-top: 1px solid var(--border); padding: 24px 20px; text-align: center; color: var(--muted); font-size: 13px; }
+  footer b { color: var(--ice); }
+</style>
+</head>
+<body>
+
+<!-- ================= POP AD (top — head ke baad) ================= -->
+<script data-cfasync="false" src="https://capitalhospitals.org/1/3fda69806b840b4283ff85b50c3912cf"></script>
+
+<!-- ===== LEFT sticky ad (160x600) ===== -->
+<div class="side-ad left">
+  <script>
+    atOptions = {
+      'key' : '085dae9d3de50ec044344fe1cd598bba',
+      'format' : 'iframe',
+      'height' : 600,
+      'width' : 160,
+      'params' : {}
+    };
+  </script>
+  <script src="https://czernik.org/22/085dae9d3de50ec044344fe1cd598bba"></script>
+</div>
+
+<!-- ===== RIGHT sticky ad (160x600) ===== -->
+<div class="side-ad right">
+  <script>
+    atOptions = {
+      'key' : '085dae9d3de50ec044344fe1cd598bba',
+      'format' : 'iframe',
+      'height' : 600,
+      'width' : 160,
+      'params' : {}
+    };
+  </script>
+  <script src="https://czernik.org/22/085dae9d3de50ec044344fe1cd598bba"></script>
+</div>
+
+<nav>
+  <div class="nav-in">
+    <div class="brand">🏒 NHL <span>Streams</span></div>
+    <div class="live-pill"><span class="dot"></span><span id="statusText">Connecting…</span></div>
+  </div>
+</nav>
+
+<section class="intro">
+  <div class="wrap">
+    <h1>Take the Glass Seat — Live Free <em>NHL Streams</em> in HD, <em>NHLBite</em> • <em>NHL Webcast</em> • <em>OnhockeyTV</em> Grade</h1>
+    <p>Every arena has a seventh man — the crowd — and tonight, that's you. NHL Streams puts the entire league on one page with free HD feeds in the tradition of NHLBite, NHL Webcast and OnhockeyTV. Pick your matchup below, take your seat against the glass, and let the game come to you.</p>
+  </div>
+</section>
+
+<div class="wrap">
+
+  <!-- ===== Top ad (728x90) ===== -->
+  <div class="top-ad">
+    <script>
+      atOptions = {
+        'key' : 'ea62689e1fb833344975c0b919b3c47f',
+        'format' : 'iframe',
+        'height' : 90,
+        'width' : 728,
+        'params' : {}
+      };
+    </script>
+    <script src="https://czernik.org/22/ea62689e1fb833344975c0b919b3c47f"></script>
+  </div>
+
+  <div class="toolbar">
+    <input id="search" type="text" placeholder="🔍 Search team... e.g. Leafs, Bruins, Oilers">
+    <button onclick="loadMatches()">↻ Refresh</button>
+  </div>
+
+  <a class="discord-banner" href="https://discord.gg/eDwwswtX" target="_blank" rel="noopener">
+    <span class="d-ico">💬</span>
+    <span>Join our <b>Discord Community</b> — live match links, updates &amp; chat with hockey fans!</span>
+    <span class="join">Join Now →</span>
+  </a>
+
+  <h2 class="sec">Live &amp; Upcoming NHL Matches</h2>
+  <div id="grid" class="grid"></div>
+  <div id="empty" class="empty" hidden>
+    <span class="puck">🏒</span>
+    <h3>No NHL matches right now</h3>
+    <p>Streams jaldi add ho jayengi — Refresh dabate raho!</p>
+  </div>
+
+  <div class="content">
+    <h2 class="sec">NHL Streams Guide</h2>
+
+    <h2>1. You're the Seventh Man — and the Crowd Is Waiting</h2>
+    <p>Coaches talk about the sixth player on the ice: the crowd. Live hockey needs live fans, and every cheer you shout at your screen is part of the game. NHL Streams keeps that connection unbroken — real-time feeds, real-time reactions, and a seat that's always yours.</p>
+
+    <h2>2. Morning Skate: Scan Tonight's Slate Before Your Day Starts</h2>
+    <p>Pros hit the ice early to prepare; smart fans do the same. A quick glance at our board over breakfast tells you exactly which games are coming, what time they drop, and where to be at puck drop. Ten seconds of planning, a whole evening of hockey secured.</p>
+
+    <h2>3. Night-Shift Heroes Deserve Live Hockey Too</h2>
+    <p>Nurses, drivers, bakers, security guards — the people who keep the world running while it sleeps still love hockey. Our board never clocks out, so whenever your shift ends, the games are right here waiting. Third shift, third period — we've got both covered.</p>
+
+    <h2>4. Hockey on the Move — Streams That Ride Shotgun</h2>
+    <p>Long commute, airport layover, back seat of the carpool — the game doesn't have to stay home. Our mobile-ready player keeps the feed rolling wherever you are, turning dead travel time into live hockey time. The road game just got easier for the fans too.</p>
+
+    <h2>5. One Tab. One Game. Zero Chaos.</h2>
+    <p>The old way: fifteen tabs, four dead links, one headache. The new way: one clean page, one working feed, one tap. NHL Streams collapses the entire scavenger hunt into a single screen — because watching hockey should never feel like doing homework.</p>
+
+    <h2>6. The Power Play Advantage: More Hockey, Less Clicking</h2>
+    <p>A team with a five-on-four doesn't waste passes — every movement has a purpose. We run our site the same way. Every element on this page earns its place, so from the moment you land, you're one click from the action. That's the man-advantage, applied to streaming.</p>
+
+    <h2>7. Every Contender Needs a Backup Goalie — So Do Your Streams</h2>
+    <p>Championship teams never rely on one goalie, and smart fans never rely on one link. Behind every match card sits a rotation of ready feeds — if the starter falters, the backup slides in without you lifting a finger. Your game stays protected like a playoff net.</p>
+
+    <h2>8. Tape-to-Tape Passing: Links That Hand Off Without a Drop</h2>
+    <p>Great teams move the puck tape-to-tape — crisp, clean, no dumps needed. Our stream matching works the same way, passing you from page to player to picture without a single fumble. No dead stops, no reload roulette, just a clean breakout from click to ice.</p>
+
+    <h2>9. Slap Shot Simple: One Tap and It's Top Shelf</h2>
+    <p>A slap shot looks complicated but comes down to one clean motion. Watching here works identically — find the card, tap it, done. No menus to decode, no settings to configure. The whole experience is built to be as direct as a one-timer from the hash marks.</p>
+
+    <h2>10. Training Camp Opens Here — Every Season Starts on This Page</h2>
+    <p>September hope, October openers, June parades — every championship story begins somewhere, and for most fans it begins with the first stream of the season. Make this page your training camp: the place where every NHL year kicks off, game one through game eighty-two.</p>
+
+    <h2>11. Outdoor Classics, Indoor Comfort — Watch Them All</h2>
+    <p>The Winter Classic, the Stadium Series, snow falling on a football-field rink — hockey's most magical games happen in the elements. You enjoy them from the warmest seat in the house: your couch, HD picture, hot cocoa in hand. The elements can keep the cold.</p>
+
+    <h2>12. Bring a Rookie to Hockey Night — First-Timers Welcome</h2>
+    <p>Everyone remembers the person who got them into hockey. Be that person for someone else — send them a link, share the page, watch the first goal together. Our simple layout makes perfect sense to total newcomers, so their first game night is a great one.</p>
+
+    <h2>13. The Parade Route Starts With Tonight's Puck Drop</h2>
+    <p>No team lifts the Cup in one night — it's built game by game, win by win. Your season as a fan works the same way, starting with tonight's matchup up top. Tap in, turn it up, and start the journey. Sixteen wins from now, you'll want to say you saw every one live.</p>
+  </div>
+
+  <div class="faq">
+    <h2 class="sec">FAQ — NHL Streams, NHLBite, NHL Webcast &amp; OnhockeyTV</h2>
+    <details><summary>What are NHL Streams?</summary><p>NHL Streams is a free website where you can watch live NHL hockey matches online in HD. We collect the best working streams from around the web and list them in one simple place.</p></details>
+    <details><summary>Is NHLBite free to use?</summary><p>Yes. Just like NHLBite, all streams on our site are completely free — no registration, no subscription, and no hidden fees. Just click and watch.</p></details>
+    <details><summary>Can I watch NHL Webcast on my phone?</summary><p>Absolutely! NHL Webcast streams on our site are fully mobile-friendly. They work on Android, iPhone, tablets, Smart TVs, and Firestick without any app download.</p></details>
+    <details><summary>How often are OnhockeyTV streams updated?</summary><p>Our match list auto-refreshes every 60 seconds, so new NHL games and streams — OnhockeyTV style — appear automatically without needing to reload the page.</p></details>
+    <details><summary>Do NHL Streams work during playoffs?</summary><p>Yes! NHL Streams covers the full season — regular season, playoffs, and the Stanley Cup Finals — with HD NHLBite and NHL Webcast quality links for every game.</p></details>
+    <details><summary>Why is no match showing on the site?</summary><p>NHL games usually happen at night (US/Canada time). If the list is empty, matches haven't started yet — press Refresh or come back closer to game time.</p></details>
+  </div>
+
+</div>
+
+<footer>🏒 <b>NHL Streams</b> — NHLBite | NHL Webcast | OnhockeyTV — Made for hockey fans. Auto-updates every 60 seconds.</footer>
+
+<script>
+const API = "https://ovogoal.pages.dev/api/v2/flyembed2.json";
+let allMatches = [];
+
+function isNHL(m) {
+  const s = `${m.Sport || ""} ${m.League || ""}`.toLowerCase();
+  return s.includes("nhl");
+}
+
+function pick(m, keys) {
+  for (const k of keys) {
+    if (m[k] && String(m[k]).trim() && String(m[k]).trim() !== "-") return String(m[k]).trim();
+  }
+  return "";
+}
+const team1Name = m => pick(m, ["Team1","Team1Name","Home","HomeTeam","team1","Home Team","Team1Logo"]) || "Home";
+const team2Name = m => pick(m, ["Team2","Team2Name","Away","AwayTeam","team2","Away Team","Team2Logo"]) || "Away";
+const matchTime = m => pick(m, ["Time","time","Date","date","StartTime","MatchTime","Kickoff","matchTime"]);
+const logoOf = v => { v = String(v || "").trim(); return /^https?:\/\/.+\.(png|jpe?g|gif|svg|webp)/i.test(v) ? v : ""; };
+
+// ===== SMART STREAM SCANNER =====
+function streamUrl(m) {
+  const known = pick(m, ["IframeUrl","iframeUrl","iframeurl","Iframe","iframe","Url","url","URL","StreamUrl","streamUrl","streamurl","EmbedUrl","embedUrl","embedurl","Embed","embed","Link","link","Stream","stream","WatchUrl","watchUrl","VideoUrl","videoUrl","videourl","PlayerUrl","playerUrl","Source","source","ChannelUrl","channelUrl"]);
+  if (known && /^https?:\/\//i.test(known)) return known;
+  let fallback = "";
+  for (const k in m) {
+    const v = String(m[k] || "").trim();
+    if (/^https?:\/\//i.test(v) && !/\.(png|jpe?g|gif|svg|webp|ico|css|js)(\?|$)/i.test(v)) {
+      if (/embed|iframe|player|stream|watch|cast/i.test(v)) return v;
+      if (!fallback) fallback = v;
+    }
+  }
+  return fallback;
+}
+
+function watchLink(m) {
+  const title = team1Name(m) + " vs " + team2Name(m);
+  const url = streamUrl(m);
+  if (url) {
+    return `watch.html?url=${encodeURIComponent(url)}&title=${encodeURIComponent(title)}`;
+  }
+  return `watch.html?title=${encodeURIComponent(title)}`;
+}
+
+async function fetchAPI() {
+  try {
+    const r = await fetch(API);
+    if (r.ok) return await r.json();
+  } catch (e) {}
+  try {
+    const r = await fetch("https://api.allorigins.win/raw?url=" + encodeURIComponent(API));
+    return await r.json();
+  } catch (e) {
+    return [];
+  }
+}
+
+async function loadMatches() {
+  document.getElementById("statusText").textContent = "Loading…";
+  const data = await fetchAPI();
+  allMatches = (Array.isArray(data) ? data : []).filter(isNHL);
+  const n = allMatches.length;
+  document.getElementById("statusText").textContent = n ? `${n} NHL Live` : "No Live Games";
+  render(allMatches);
+}
+
+function render(matches) {
+  const grid = document.getElementById("grid");
+  const empty = document.getElementById("empty");
+  grid.innerHTML = "";
+  empty.hidden = matches.length > 0;
+
+  matches.forEach(m => {
+    const t1 = team1Name(m), t2 = team2Name(m);
+    const l1 = logoOf(m.Team1Logo), l2 = logoOf(m.Team2Logo);
+    const wlink = watchLink(m);
+    const url = streamUrl(m);
+    const time = matchTime(m);
+
+    const card = document.createElement("a");
+    card.className = "card";
+    card.href = wlink;
+    card.target = "_blank";
+    card.rel = "noopener";
+    card.innerHTML = `
+      <div class="card-top">
+        <span class="chip">🏒 NHL</span>
+        <span class="badge">LIVE</span>
+      </div>
+      <div class="teams">
+        <div class="team">
+          <div class="ring">${l1 ? `<img src="${l1}" alt="">` : `<span>${t1.charAt(0)}</span>`}</div>
+          <p>${t1}</p>
+        </div>
+        <div class="vs">VS</div>
+        <div class="team">
+          <div class="ring">${l2 ? `<img src="${l2}" alt="">` : `<span>${t2.charAt(0)}</span>`}</div>
+          <p>${t2}</p>
+        </div>
+      </div>
+      <div class="card-foot">
+        <span class="time">📅 ${time || "Live Now"}</span>
+        ${url
+          ? `<span class="watch">▶ Watch Live</span>`
+          : `<span class="no-stream">Stream coming soon…</span>`}
+      </div>`;
+    grid.appendChild(card);
+  });
+}
+
+document.getElementById("search").addEventListener("input", e => {
+  const q = e.target.value.toLowerCase();
+  render(allMatches.filter(m => (team1Name(m) + " " + team2Name(m)).toLowerCase().includes(q)));
+});
+
+loadMatches();
+setInterval(loadMatches, 60000);
+</script>
+
+<!-- ================= HISTATS ANALYTICS ================= -->
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,5048377,4,9,110,60,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img src="//sstatic1.histats.com/0.gif?5048377&101" alt="website stats" border="0"></a></noscript>
+<!-- Histats.com  END -->
+
+</body>
+</html>
